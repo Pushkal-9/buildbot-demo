@@ -9,6 +9,6 @@ cd "$(dirname "$0")"
 echo "Running Maven clean and package..."
 mvn clean package
 # Run the application (update the jar file name if necessary)
-echo "Running the application..."
+echo "Running the application."
 java -jar target/*.jar
 echo "Build and execution completed successfully!!"
