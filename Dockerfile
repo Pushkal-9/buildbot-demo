@@ -11,4 +11,4 @@ COPY . .
 RUN mvn clean package
 
 # Run the built JAR (optional)
-CMD ["java", "-jar", "target/Buildbot-sample-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/buildbot-demo-1.0-SNAPSHOT.jar"]
